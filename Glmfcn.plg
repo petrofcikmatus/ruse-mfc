@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Glmfcn - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x402 /fo"Debug/Glmfcn.res" /d "_DEBUG" /d "_AFXDLL" "D:\Desi1\Uchebna rabota\Comp_graf\_GL_mfc-base\Glmfcn.rc"" 
+Creating temporary file "C:\DOCUME~1\desi\LOCALS~1\Temp\RSPAF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Glmfcn.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Desi1\Uchebna rabota\Comp_graf\_GL_mfc-base\Glmfcn.cpp"
+"D:\Desi1\Uchebna rabota\Comp_graf\_GL_mfc-base\GlmfcnDoc.cpp"
+"D:\Desi1\Uchebna rabota\Comp_graf\_GL_mfc-base\GlmfcnView.cpp"
+"D:\Desi1\Uchebna rabota\Comp_graf\_GL_mfc-base\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\desi\LOCALS~1\Temp\RSPAF.tmp" 
+Creating temporary file "C:\DOCUME~1\desi\LOCALS~1\Temp\RSPB0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Glmfcn.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Desi1\Uchebna rabota\Comp_graf\_GL_mfc-base\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\desi\LOCALS~1\Temp\RSPB0.tmp" 
+Creating temporary file "C:\DOCUME~1\desi\LOCALS~1\Temp\RSPB1.tmp" with contents
+[
+opengl32.lib glu32.lib glaux.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Glmfcn.pdb" /debug /machine:I386 /out:"Debug/Glmfcn.exe" /pdbtype:sept 
+".\Debug\Glmfcn.obj"
+".\Debug\GlmfcnDoc.obj"
+".\Debug\GlmfcnView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Glmfcn.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\desi\LOCALS~1\Temp\RSPB1.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Glmfcn.cpp
+GlmfcnDoc.cpp
+GlmfcnView.cpp
+D:\Desi1\Uchebna rabota\Comp_graf\_GL_mfc-base\GlmfcnView.cpp(162) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Glmfcn.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
